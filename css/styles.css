@@ -78,6 +78,9 @@ body {
 }
 
 /* контакти */
+.adress {
+  font-style: normal;
+}
 .adress-link {
   font-style: normal;
   font-weight: 400;
@@ -190,7 +193,7 @@ body {
 }
 
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -202,7 +205,7 @@ body {
   color: #4d5ae5;
 }
 .logo-footer-color {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -217,7 +220,7 @@ body {
 /* portfolio */
 .nav-buttom {
   background-color: #f4f4fd;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
