@@ -42,7 +42,7 @@ body {
 /* Навігація */
 .logo {
   font-family: 'Raleway', sans-serif;
-   font-style: normal
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -112,11 +112,12 @@ body {
 /* кнопка ордер */
 .hero-button {
   background-color: #4d5ae5;
-  color: var(--primary-white-color);
   width: 169px;
   height: 56px;
   left: 20px;
   top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -158,11 +159,10 @@ body {
   color: var(--primary-text-color);
 }
 .section-team {
-   background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .section-title-list {
- 
   background-color: var(--primary-white-color);
 }
 
@@ -194,27 +194,25 @@ body {
   color: #f4f4fd;
 }
 
-
 /* portfolio */
 .nav-buttom {
-  background-color: #F4F4FD;
-  
+  background-color: #f4f4fd;
+
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
 }
 
 .nav-buttom:hover,
 .nav-buttom:focus {
   background-color: var(--accent-color);
-  color: var(--primary-white-color)
-  
+  color: var(--primary-white-color);
 }
